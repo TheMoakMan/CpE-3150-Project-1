@@ -1,6 +1,6 @@
 #include <reg932.inc>
 
-led1 	equ 0a4h
+led1 	equ 0a4h 		; Memory locations for LEDs and switches
 led2 	equ 85h
 led3 	equ 0a7h
 led4 	equ 86h
@@ -20,7 +20,7 @@ sw8		equ	83h
 sw9		equ	0a2h
 
 
-cseg at 0			; Start of code segment set to address 0
+cseg at 0				; Start of code segment set to address 0
 		mov P2M1,#0		; set Port 2 to bi-directional
 	    mov P1M1,#0		; set Port 1 to bi-directional
 	    mov P0M1,#0		; set Port 0 to bi-directional
@@ -46,6 +46,6 @@ cseg at 0			; Start of code segment set to address 0
 		mov led9,c		
 		sjmp loop		
 
-end				; tells assembler that this is the end
+end					; tells assembler that this is the end
 					; of the assembly language program   
    
