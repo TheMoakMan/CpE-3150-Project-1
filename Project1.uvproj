@@ -362,6 +362,18 @@
       <Groups>
         <Group>
           <GroupName>Source Group 1</GroupName>
+          <Files>
+            <File>
+              <FileName>Project1.a51</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Project1.a51</FilePath>
+            </File>
+            <File>
+              <FileName>reg932.inc</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\reg932.inc</FilePath>
+            </File>
+          </Files>
         </Group>
       </Groups>
     </Target>
