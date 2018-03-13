@@ -1,3 +1,6 @@
+; Jacques Bourquin
+; Katherine Latta
+; Evan Moak
 #include <reg932.inc>
 
 led1 	equ 0a4h 		; Memory locations for LEDs and switches
